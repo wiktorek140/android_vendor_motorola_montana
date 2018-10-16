@@ -128,7 +128,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
     vendor/motorola/montana/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/motorola/montana/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
-    vendor/motorola/montana/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
     vendor/motorola/montana/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
     vendor/motorola/montana/proprietary/lib/libjni_dualcamera.so:system/lib/libjni_dualcamera.so \
     vendor/motorola/montana/proprietary/lib/libjson.so:system/lib/libjson.so \
@@ -153,6 +152,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/motorola/montana/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/motorola/montana/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
+    vendor/motorola/montana/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice \
+    vendor/motorola/montana/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:system/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
+    vendor/motorola/montana/proprietary/vendor/lib/com.fingerprints.extension@1.0_vendor.so:system/vendor/lib/com.fingerprints.extension@1.0_vendor.so \
     vendor/motorola/montana/proprietary/lib64/vendor.qti.esepowermanager@1.0.so:system/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/motorola/montana/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
     vendor/motorola/montana/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
